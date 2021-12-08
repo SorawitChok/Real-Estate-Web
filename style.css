@@ -1,0 +1,356 @@
+*, body{
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: inline;
+    padding-left: 14px;
+}
+  
+a {
+      text-decoration: none;
+}
+
+.center{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+}
+
+.backImg{
+    margin-top: 20px;
+    margin-left: 384px;
+    width: 75%;
+    height: 91vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url(LandingImg.jpg);
+}
+
+.word{
+    position: absolute;
+    left: 180px;
+    top: 200px;
+}
+
+.stylebox{
+    padding-left: 20px;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.searchstyle{
+    outline: none;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 196, 0);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.styleboxb{
+    margin-top: 20px;
+    margin-left: 83px;
+    padding-left: 20px;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.searchstyleb{
+    margin-top: 20px;
+    outline: none;
+    width: 70px;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 196, 0);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.buttonWB{
+    color: #ffa51d;
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid #ffa51d;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.45s;
+    transition-timing-function: ease;
+    
+}
+
+.buttonWB:hover{
+    background-color: #ffa51d;
+    border: 1px solid #ffa51d;
+    color:black;
+}
+
+.LoginBack{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url(loginImg.jpg);
+}
+
+.RegisBack{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url(registImg.jpg);
+}
+
+.LoginCard{
+    background-color: #fff;
+    height: 100vh;
+    width: 40%;
+    text-align: center;
+    padding-top: 230px;
+}
+
+.curvebox{
+    border-radius: 20px;
+    border: 1px solid #b6b6b6;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.curvebox:focus{
+    border: 1px solid #ffa51d;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.StoR{
+    position: absolute;
+    text-decoration: none;
+    transform: translate(240px,-120px);
+    font-size: 50px;
+    color:#b6b6b6 ;
+    transition-timing-function: ease;
+}
+
+.RtoS{
+    position: absolute;
+    text-decoration: none;
+    left: 1%;
+    top: 350px;
+    font-size: 50px;
+    color:#b6b6b6 ;
+    transition-timing-function: ease;
+}
+
+.RtoS:hover span{
+    display:none;
+    cursor: pointer;
+}
+
+.RtoS:hover:before{
+    position: absolute;
+    color:#ffa51d ;
+    cursor: pointer;
+    content: "Login";
+    font-size: 20px;
+    left: 15px;
+    top: 25px;
+}
+
+.StoR:hover span{
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+    display:none;
+    transform: translate(240px,-120px);
+    font-size: 50px;
+    color:#ffa51d ;
+    transition-timing-function: ease;
+}
+
+.StoR:hover:before{
+    position: absolute;
+    content: "Register";
+    cursor: pointer;
+    text-decoration: none;
+    transform: translate(-75px,25px);
+    font-size: 20px;
+    color:#ffa51d ;
+    transition-timing-function: ease;
+}
+
+.RegisCard{
+    position: absolute;
+    background-color: #fff;
+    left: 60%;
+    height: 100vh;
+    width: 40%;
+    text-align: center;
+    padding-top: 190px;
+}
+
+#map {
+    position: absolute;
+    height: 94vh;
+    width: 70%;
+    float:left;
+}
+
+.card{
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+    margin-left:50px ;
+    padding-left: 20px;
+    padding-top: 10px;
+    width:80%;
+    height: 40vh;
+    box-shadow: 2px 3px 6px 0px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 2px 3px 6px 0px rgba(0,0,0,0.64);
+    -moz-box-shadow: 2px 3px 6px 0px rgba(0,0,0,0.64);
+}
+
+.side{
+    position: absolute;
+    right: 0;
+    height: 94vh;
+    width: 30%;
+    z-index: 99;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-15 {
+    -ms-flex: 15%; /* IE10 */
+    flex: 15%;
+  }
+
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-15,
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+
+  .mybody{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-size: 15px;
+    padding: 10%;
+    padding-bottom: 65px;
+    padding-top: 0px;
+  }
+
+  .btn {
+    background-color: #fff;
+    color: rgb(1, 165, 165);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid rgb(1, 165, 165);
+    transition-duration: 0.45s;
+    transition-timing-function: ease;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(1, 165, 165);
+    color: #fff;
+  }
+
+  .nav{
+    color: black;
+  }
+
+  .nav:hover{
+    text-decoration: underline;
+    color: royalblue;
+  }
+
+  .navr{
+    color: red;
+  }
+
+  .navr:hover{
+    text-decoration: underline;
+  }
+
+  input[type=datetime-local] {
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+
+  input[type=datetime-local]:focus {
+    width: 75%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid rgb(1, 165, 165);
+    border-radius: 20px;
+    outline: none;
+  }
+
+
+
